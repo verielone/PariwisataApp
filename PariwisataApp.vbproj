@@ -48,6 +48,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Toolkit.Forms.UI.Controls.WebView">
+      <HintPath>..\..\..\..\Semester 4\Senin - Sofware Development Project\project\SDApp\Resources\ContentReader\Microsoft.Toolkit.Forms.UI.Controls.WebView.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -58,6 +61,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -73,11 +77,41 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Blog.Designer.vb">
+      <DependentUpon>Blog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Blog.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="CBlog.Designer.vb">
+      <DependentUpon>CBlog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CBlog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPariwisata.Designer.vb">
+      <DependentUpon>CPariwisata.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CPariwisata.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form.Designer.vb">
+      <DependentUpon>Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pariwisata.Designer.vb">
+      <DependentUpon>Pariwisata.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pariwisata.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,6 +131,24 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Blog.resx">
+      <DependentUpon>Blog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBlog.resx">
+      <DependentUpon>CBlog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPariwisata.resx">
+      <DependentUpon>CPariwisata.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form.resx">
+      <DependentUpon>Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pariwisata.resx">
+      <DependentUpon>Pariwisata.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
