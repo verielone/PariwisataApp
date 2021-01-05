@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PariwisataApp", "PariwisataApp.vbproj", "{393F9726-6463-440F-8FDB-5B148496EF81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{393F9726-6463-440F-8FDB-5B148496EF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393F9726-6463-440F-8FDB-5B148496EF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393F9726-6463-440F-8FDB-5B148496EF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393F9726-6463-440F-8FDB-5B148496EF81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01F0E6D8-538B-482A-87AE-E95637A9D496}
+	EndGlobalSection
+EndGlobal
